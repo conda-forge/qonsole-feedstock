@@ -1,5 +1,5 @@
 {% set name = "qonsole" %}
-{% set version = "3.2.1" %}
+{% set version = "3.3.0" %}
 
 package:
   name: qonsole
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/q/qonsole/qonsole-{{ version }}.tar.gz
-  sha256: 08d4d24a539305dcb11af29dc02d0f84c2a12b58aec7de42244bba27054da951
+  sha256: 63a7e046ac5e519cc519cbe6f4a8add65fdf6e972999b423682e1abfba4a310e
 
 build:
   noarch: python
